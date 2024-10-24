@@ -1,0 +1,348 @@
+{
+  "errors": {
+    "messages": {
+      "400badRequest": "Bad request.",
+      "401unauthorized": "Unauthorized request.",
+      "404notFound": "The server cannot find the requested URL.",
+      "405methodnotallow": "Called method exists but it cannot be called directly.",
+      "408requestTimeout": "The server is not responding.",
+      "500internalServerError": "The server encountered an error.",
+      "501notimplemented": "The server cannot handle this method.",
+      "503serviceunavailable": "The server is not ready to handle requests.",
+      "unknownError": "An unknown error has occurred.",
+      "genericMessage": "Something went wrong, please contact customer support"
+    },
+    "fallback": {
+      "pageNotFound": "Page not found",
+      "requestedPageNotExist": "The requested page does not exist.",
+      "homeButton": "Home"
+    },
+    "orders": {
+      "ORDER_NOT_FOUND": "Order not found",
+      "WRONG_ORDER_STATUS": "Order is not in COMPLETE RESULTS or REVIEWED status"
+    },
+    "user": {
+      "UNPROCESSABLE": "Preferred language could not be stored in your profile."
+    }
+  },
+  "nameProject": "IVD Testing Platform",
+  "description": "This is an empty project with the theme: {{theme}}",
+  "fallback": {
+    "pageNotFoundMessage": "Page not found",
+    "pageNotFoundDescription": "The requested page {{url}} does not exist.",
+    "countdownMessage": "You will be redirected in ... {{countdown}}",
+    "unauthorizedMessage": "You do not have permission to access this page."
+  },
+  "control": {
+    "goHome": "Home",
+    "goTestLink": "Test navigation"
+  },
+  "navigation": {
+    "HOME": "Home",
+    "ORDER_CREATION": "Create order",
+    "ORDERS": "Orders",
+    "TITLE": "Tests Orders by status"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "logOut": "Log out",
+    "confirm": "Confirm",
+    "search": "Search",
+    "close": "Close"
+  },
+  "list": {
+    "currentPage": "{{currentPage}} of {{total_pages}}",
+    "noResults": "No results found"
+  },
+  "i18n": {
+    "changeLanguage": "Change language"
+  },
+  "intlDateTime": "{{val, datetime}}",
+  "rangeSelector": {
+    "title": "Select Range",
+    "today": "Today",
+    "lastWeek": "Last week",
+    "lastMonth": "Last month",
+    "last3Months": "Last 3 months",
+    "custom": "Custom"
+  },
+  "timePassed": {
+    "result": "{{quantity}} {{unit}} ago",
+    "minuteSingular": "minute",
+    "minutePlural": "minutes",
+    "hourSingular": "hour",
+    "hourPlural": "hours",
+    "daySingular": "day",
+    "dayPlural": "days"
+  },
+  "actions": {
+    "needHelp": "Need help?"
+  },
+  "about": {
+    "name": "IVD Testing Platform",
+    "title": "About",
+    "softwareVersion": "Software Version",
+    "languageVersion": "Language Pack Version",
+    "copyright": {
+      "title": "Copyright",
+      "text": "Copyright © 2024 Roche Diagnostics International Ltd. All rights reserved.\n\nIVD Testing Platform is protected by contract law, copyright laws and international treaties.\n\nIVD Testing Platform is licensed for use between Roche Diagnostics International Ltd and the licensee, and only users authorized there under are permitted to access and use the software. Unauthorized use and distribution may result in civil and criminal penalties."
+    },
+    "trademark": {
+      "title": "Trademarks",
+      "text": "IVD Testing Platform is a trademark of Roche.\n\nAll other product names and trademarks are property of their respective owners."
+    },
+    "openSource": {
+      "title": "Open Source and Commercial Software",
+      "text": "IVD Testing Platform might contain components or modules that are Open Source or commercial software programs."
+    },
+    "useStatement": {
+      "title": "For use statement",
+      "text": "IVD Testing Platform is an application/integration layer to transport data from partner IT systems to the laboratory and vice versa.\n\nThe IVD Testing Platform enables healthcare providers to order IVD Tests and see test results from a range of different diagnostic services.\n\nThe IVD Testing Platform will offer an order entry and result lookup capability in case an integration into the Healthcare IT infrastructure is not possible.\n\nIVD Testing Platform enables the patient or the healthcare provider to select a preferred location for the sample collection.\n\nThis platform/product is not intended for the diagnosis, screening, monitoring or treatment of patients."
+    },
+    "manufacturer": "Roche Diagnostics GmbH\nSandhofer Strasse 116\n68305 Mannheim\nGermany",
+    "manufactureDate": "2024-09-27",
+    "originCountry": "Made in Spain",
+    "materialNumber": "10342811001"
+  },
+  "laboratories": {
+    "address": {
+      "title": "Address",
+      "street": "Street",
+      "postalCode": "ZIP/Postal code",
+      "city": "City",
+      "country": "Country"
+    },
+    "bookingService": {
+      "onlineAvailability": "Online booking service",
+      "phone": "Telephone number",
+      "url": "URL"
+    },
+    "filter": {
+      "empty": "There are no sample collection sites matching your search",
+      "search": {
+        "title": "Filter sample collection site",
+        "label": "By name or address"
+      }
+    },
+    "openingHours": {
+      "title": "Opening hours",
+      "monToFri": "Monday to Friday",
+      "sat": "Saturday",
+      "sun": "Sunday",
+      "holidays": "Public holidays"
+    },
+    "dropin": {
+      "title": "Drop-in"
+    },
+    "sendOrder": {
+      "action": "Send order",
+      "success": "The order was sent successfully to {{name}}",
+      "error": "There was a problem sending your order to {{name}}"
+    }
+  },
+  "orders": {
+    "creation": {
+      "steps": {
+        "patient": "Patient information",
+        "tests": "Choose tests",
+        "conditions": "Conditions",
+        "summary": "Order summary"
+      },
+      "patient": {
+        "search": "Search patient",
+        "create": "Add patient manually"
+      },
+      "tests": {
+        "title": "Choose test",
+        "filterPlaceholder": "Search by test name or LOINC"
+      },
+      "conditions": {
+        "title": "Sample collection site",
+        "filterPlaceholder": "Search by sample collection site name or address",
+        "options": {
+          "title": "List of options",
+          "filters": {
+            "dropIn": "Available drop-in"
+          }
+        }
+      },
+      "summary": {
+        "sections": {
+          "patient": "Patient information",
+          "tests": "Test information",
+          "conditions": "Conditions"
+        },
+        "actions": {
+          "change": "Change"
+        },
+        "tests": {
+          "notAvailable": "Not available",
+          "noTests": "There are no tests selected"
+        },
+        "conditions": {
+          "laboratory": "Sample collection site"
+        }
+      },
+      "dialog": {
+        "title": "Cancel test order",
+        "text": "By clicking on Confirm you will lose all the information already set in the test order.<br /><br />Do you want to continue?",
+        "action": "Confirm"
+      },
+      "interceptor": {
+        "title": "Exit test order creation",
+        "text": "By clicking on Continue, the current order's information will be lost.<br /><br />Do you want to continue?"
+      }
+    },
+    "display": {
+      "title": "Order manager",
+      "total": "Total"
+    },
+    "list": {
+      "header": {
+        "title": "List of orders",
+        "filters": {
+          "myOrders": "Filter my orders",
+          "status": {
+            "placeHolder": "Select status",
+            "name": "Filter by status"
+          },
+          "text": {
+            "placeHolder": "Search by",
+            "name": "Filter by text"
+          }
+        }
+      },
+      "fields": {
+        "id": "Order ID",
+        "doctor": "Requested by",
+        "primaryId": "Patient ID",
+        "creationDate": "Register date",
+        "lastUpdate": "Last update",
+        "status": "Status"
+      },
+      "noResults": {
+        "subtitle": "Please, try different keywords or adjust your filters"
+      }
+    },
+    "notifications": {
+      "orderCreation": {
+        "success": "{{orderId}} has been created successfully.",
+        "error": "Order could not be created. Please try again.",
+        "info": "{{orderId}} has been created, but it could not be sent correctly.",
+        "pending": "{{orderId}} is being requested. This may take some minutes."
+      },
+      "orderResults": {
+        "notFound": "Order could not be found. Please try again."
+      },
+      "actions": {
+        "viewOrder": "View order"
+      }
+    },
+    "order": {
+      "title": "Order",
+      "review": "Mark as reviewed",
+      "patient": {
+        "information": "Patient information",
+        "id": "Patient ID",
+        "birthDate": "Date of birth",
+        "sex": "Sex at birth",
+        "email": "Email"
+      },
+      "details": {
+        "id": "Order ID",
+        "lastUpdate": "Last update",
+        "orderDate": "Register date",
+        "requestedBy": "Requested by",
+        "reviewedBy": "Reviewed by",
+        "reviewedDate": "Reviewed date",
+        "reportedDate": "Reported date",
+        "sampleCollectionSite": "Collection site"
+      },
+      "results": {
+        "title": "Results",
+        "actions": {
+          "copyFullReport": "Copy full report",
+          "copiedToClipboard": "Copied to clipboard"
+        },
+        "groups": {
+          "clinical_chemistry_lipids_proteins": "Clinical chemistry, lipids, proteins",
+          "for_special_indications": "For special indications",
+          "heavy_metals": "Heavy metals",
+          "hematology_and_hba1c": "Hematology and HbA1c",
+          "hemostasis": "Hemostasis",
+          "hormones_tumor_markers_and_others": "Hormones, tumor markers, and others",
+          "other_examinations": "Other examinations",
+          "others": "Others",
+          "stressors": "Stressors",
+          "trace_elements": "Trace elements",
+          "urin_analysis": "Urine analysis",
+          "without": "No group configuration"
+        },
+        "noResults": {
+          "title": "No results available",
+          "subtitle": "There is no information available yet"
+        }
+      }
+    },
+    "status": {
+      "ALL": "Total",
+      "ACTIVE": "Waiting results",
+      "COMPLETE_RESULTS": "Complete results",
+      "DRAFT": "Waiting patient",
+      "ERROR": "Issues",
+      "PARTIAL_RESULTS": "Partial results",
+      "PENDING": "Waiting SCS",
+      "REVIEWED": "Reviewed"
+    }
+  },
+  "patients": {
+    "creation": {
+      "disclaimer": "Patient's information will NOT be synced with the EMR",
+      "labels": {
+        "primaryId": "Patient ID*",
+        "secondaryId": "Patient Second ID",
+        "name": "Name",
+        "surname": "Surname",
+        "birthDate": "Birth date",
+        "gender": "Sex at birth",
+        "phone": "Phone number",
+        "email": "Email"
+      },
+      "validation": {
+        "required": "This field is required",
+        "primaryId": "Requirements not met. No empty spaces and no special characters.",
+        "secondaryId": "Requirements not met. No empty spaces and no special characters.",
+        "name": "Requirements not met. No numerical values and no special characters.",
+        "surname": "Requirements not met. No numerical values and no special characters.",
+        "email": "Email address must contain this format: email@email.com"
+      }
+    },
+    "data": {
+      "title": "Basic data",
+      "name": "Name",
+      "surname": "Surname",
+      "primaryId": "Primary patient ID",
+      "secondaryId": "Secondary patient ID",
+      "gender": "Gender",
+      "birthDate": "Birth date"
+    },
+    "errors": {
+      "001": "Business validation error",
+      "400": "The following fields have invalid format: {{errorFields}}"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "unknown": "Unknown",
+      "other": "Other"
+    },
+    "search": {
+      "placeholder": "Search by patient name or ID",
+      "noResults": "No available results"
+    }
+  }
+}
