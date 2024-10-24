@@ -1,0 +1,348 @@
+{
+  "errors": {
+    "messages": {
+      "400badRequest": "Solicitud incorrecta.",
+      "401unauthorized": "Solicitud no autorizada.",
+      "404notFound": "El servidor no puede encontrar la URL solicitada.",
+      "405methodnotallow": "El método llamado existe pero no puede ser llamado directamente.",
+      "408requestTimeout": "El servidor no responde.",
+      "500internalServerError": "El servidor encontró un error.",
+      "501notimplemented": "El servidor no puede manejar este método.",
+      "503serviceunavailable": "El servidor no está listo para manejar solicitudes.",
+      "unknownError": "Ha ocurrido un error desconocido.",
+      "genericMessage": "Algo salió mal, por favor contacte al servicio de atención al cliente."
+    },
+    "fallback": {
+      "pageNotFound": "Página no encontrada",
+      "requestedPageNotExist": "La página solicitada no existe.",
+      "homeButton": "Inicio"
+    },
+    "orders": {
+      "ORDER_NOT_FOUND": "Pedido no encontrado",
+      "WRONG_ORDER_STATUS": "El pedido no está en estado 'RESULTADOS COMPLETOS' o 'REVISADO'"
+    },
+    "user": {
+      "UNPROCESSABLE": "El idioma preferido no pudo ser guardado en su perfil."
+    }
+  },
+  "nameProject": "Plataforma de Pruebas IVD",
+  "description": "Este es un proyecto vacío con el tema: {{theme}}",
+  "fallback": {
+    "pageNotFoundMessage": "Página no encontrada",
+    "pageNotFoundDescription": "La página solicitada {{url}} no existe.",
+    "countdownMessage": "Será redirigido en... {{countdown}}",
+    "unauthorizedMessage": "No tiene permiso para acceder a esta página."
+  },
+  "control": {
+    "goHome": "Inicio",
+    "goTestLink": "Probar navegación"
+  },
+  "navigation": {
+    "HOME": "Inicio",
+    "ORDER_CREATION": "Crear pedido",
+    "ORDERS": "Pedidos",
+    "TITLE": "Pedidos de pruebas por estado"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "continue": "Continuar",
+    "logOut": "Cerrar sesión",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "close": "Cerrar"
+  },
+  "list": {
+    "currentPage": "{{currentPage}} de {{total_pages}}",
+    "noResults": "No se encontraron resultados"
+  },
+  "i18n": {
+    "changeLanguage": "Cambiar idioma"
+  },
+  "intlDateTime": "{{val, datetime}}",
+  "rangeSelector": {
+    "title": "Seleccionar rango",
+    "today": "Hoy",
+    "lastWeek": "La semana pasada",
+    "lastMonth": "El mes pasado",
+    "last3Months": "Últimos 3 meses",
+    "custom": "Personalizado"
+  },
+  "timePassed": {
+    "result": "Hace {{quantity}} {{unit}}",
+    "minuteSingular": "minuto",
+    "minutePlural": "minutos",
+    "hourSingular": "hora",
+    "hourPlural": "horas",
+    "daySingular": "día",
+    "dayPlural": "días"
+  },
+  "actions": {
+    "needHelp": "¿Necesita ayuda?"
+  },
+  "about": {
+    "name": "Plataforma de Pruebas IVD",
+    "title": "Acerca de",
+    "softwareVersion": "Versión del software",
+    "languageVersion": "Versión del paquete de idioma",
+    "copyright": {
+      "title": "Derechos de autor",
+      "text": "Derechos de autor © 2024 Roche Diagnostics International Ltd. Todos los derechos reservados.\n\nLa Plataforma de Pruebas IVD está protegida por leyes contractuales, derechos de autor y tratados internacionales.\n\nLa Plataforma de Pruebas IVD está licenciada para su uso entre Roche Diagnostics International Ltd y el licenciatario, y solo los usuarios autorizados bajo dicho acuerdo pueden acceder y usar el software. El uso y distribución no autorizados pueden resultar en sanciones civiles y penales."
+    },
+    "trademark": {
+      "title": "Marcas registradas",
+      "text": "Plataforma de Pruebas IVD es una marca registrada de Roche.\n\nTodos los demás nombres de productos y marcas registradas son propiedad de sus respectivos dueños."
+    },
+    "openSource": {
+      "title": "Software de Código Abierto y Comercial",
+      "text": "La Plataforma de Pruebas IVD puede contener componentes o módulos que son programas de software de código abierto o comercial."
+    },
+    "useStatement": {
+      "title": "Declaración de uso",
+      "text": "La Plataforma de Pruebas IVD es una capa de aplicación/integración para transportar datos desde sistemas informáticos asociados al laboratorio y viceversa.\n\nLa Plataforma de Pruebas IVD permite a los proveedores de atención médica solicitar pruebas IVD y ver resultados de pruebas de una variedad de servicios diagnósticos diferentes.\n\nLa Plataforma de Pruebas IVD ofrecerá una capacidad de entrada de pedidos y consulta de resultados en caso de que no sea posible una integración en la infraestructura de TI sanitaria.\n\nLa Plataforma de Pruebas IVD permite al paciente o al proveedor de atención médica seleccionar una ubicación preferida para la recolección de muestras.\n\nEsta plataforma/producto no está destinada al diagnóstico, cribado, monitoreo o tratamiento de pacientes."
+    },
+    "manufacturer": "Roche Diagnostics GmbH\nSandhofer Strasse 116\n68305 Mannheim\nAlemania",
+    "manufactureDate": "27/09/2024",
+    "originCountry": "Hecho en España",
+    "materialNumber": "10342811001"
+  },
+  "laboratories": {
+    "address": {
+      "title": "Dirección",
+      "street": "Calle",
+      "postalCode": "Código postal",
+      "city": "Ciudad",
+      "country": "País"
+    },
+    "bookingService": {
+      "onlineAvailability": "Servicio de reserva en línea",
+      "phone": "Número de teléfono",
+      "url": "URL"
+    },
+    "filter": {
+      "empty": "No hay sitios de recolección de muestras que coincidan con su búsqueda",
+      "search": {
+        "title": "Filtrar sitio de recolección de muestras",
+        "label": "Por nombre o dirección"
+      }
+    },
+    "openingHours": {
+      "title": "Horario de apertura",
+      "monToFri": "Lunes a viernes",
+      "sat": "Sábado",
+      "sun": "Domingo",
+      "holidays": "Días festivos"
+    },
+    "dropin": {
+      "title": "Sin cita previa"
+    },
+    "sendOrder": {
+      "action": "Enviar pedido",
+      "success": "El pedido se envió correctamente a {{name}}",
+      "error": "Hubo un problema al enviar su pedido a {{name}}"
+    }
+  },
+  "orders": {
+    "creation": {
+      "steps": {
+        "patient": "Información del paciente",
+        "tests": "Elegir pruebas",
+        "conditions": "Condiciones",
+        "summary": "Resumen del pedido"
+      },
+      "patient": {
+        "search": "Buscar paciente",
+        "create": "Agregar paciente manualmente"
+      },
+      "tests": {
+        "title": "Elegir prueba",
+        "filterPlaceholder": "Buscar por nombre de prueba o LOINC"
+      },
+      "conditions": {
+        "title": "Sitio de recolección de muestras",
+        "filterPlaceholder": "Buscar por nombre o dirección del sitio de recolección",
+        "options": {
+          "title": "Lista de opciones",
+          "filters": {
+            "dropIn": "Disponible sin cita"
+          }
+        }
+      },
+      "summary": {
+        "sections": {
+          "patient": "Información del paciente",
+          "tests": "Información de la prueba",
+          "conditions": "Condiciones"
+        },
+        "actions": {
+          "change": "Cambiar"
+        },
+        "tests": {
+          "notAvailable": "No disponible",
+          "noTests": "No hay pruebas seleccionadas"
+        },
+        "conditions": {
+          "laboratory": "Sitio de recolección de muestras"
+        }
+      },
+      "dialog": {
+        "title": "Cancelar pedido de prueba",
+        "text": "Al hacer clic en Confirmar, perderá toda la información ya establecida en el pedido de prueba.<br /><br />¿Desea continuar?",
+        "action": "Confirmar"
+      },
+      "interceptor": {
+        "title": "Salir de la creación del pedido de prueba",
+        "text": "Al hacer clic en Continuar, se perderá la información actual del pedido.<br /><br />¿Desea continuar?"
+      }
+    },
+    "display": {
+      "title": "Gestor de pedidos",
+      "total": "Total"
+    },
+    "list": {
+      "header": {
+        "title": "Lista de pedidos",
+        "filters": {
+          "myOrders": "Filtrar mis pedidos",
+          "status": {
+            "placeHolder": "Seleccionar estado",
+            "name": "Filtrar por estado"
+          },
+          "text": {
+            "placeHolder": "Buscar por",
+            "name": "Filtrar por texto"
+          }
+        }
+      },
+      "fields": {
+        "id": "ID del pedido",
+        "doctor": "Solicitado por",
+        "primaryId": "ID del paciente",
+        "creationDate": "Fecha de registro",
+        "lastUpdate": "Última actualización",
+        "status": "Estado"
+      },
+      "noResults": {
+        "subtitle": "Por favor, pruebe con diferentes palabras clave o ajuste sus filtros"
+      }
+    },
+    "notifications": {
+      "orderCreation": {
+        "success": "{{orderId}} ha sido creado exitosamente.",
+        "error": "No se pudo crear el pedido. Por favor, inténtelo de nuevo.",
+        "info": "{{orderId}} ha sido creado, pero no pudo ser enviado correctamente.",
+        "pending": "{{orderId}} está siendo solicitado. Esto puede tardar algunos minutos."
+      },
+      "orderResults": {
+        "notFound": "No se pudo encontrar el pedido. Por favor, inténtelo de nuevo."
+      },
+      "actions": {
+        "viewOrder": "Ver pedido"
+      }
+    },
+    "order": {
+      "title": "Pedido",
+      "review": "Marcar como revisado",
+      "patient": {
+        "information": "Información del paciente",
+        "id": "ID del paciente",
+        "birthDate": "Fecha de nacimiento",
+        "sex": "Sexo al nacer",
+        "email": "Correo electrónico"
+      },
+      "details": {
+        "id": "ID del pedido",
+        "lastUpdate": "Última actualización",
+        "orderDate": "Fecha de registro",
+        "requestedBy": "Solicitado por",
+        "reviewedBy": "Revisado por",
+        "reviewedDate": "Fecha de revisión",
+        "reportedDate": "Fecha del informe",
+        "sampleCollectionSite": "Sitio de recolección"
+      },
+      "results": {
+        "title": "Resultados",
+        "actions": {
+          "copyFullReport": "Copiar informe completo",
+          "copiedToClipboard": "Copiado al portapapeles"
+        },
+        "groups": {
+          "clinical_chemistry_lipids_proteins": "Química clínica, lípidos, proteínas",
+          "for_special_indications": "Para indicaciones especiales",
+          "heavy_metals": "Metales pesados",
+          "hematology_and_hba1c": "Hematología y HbA1c",
+          "hemostasis": "Hemostasia",
+          "hormones_tumor_markers_and_others": "Hormonas, marcadores tumorales y otros",
+          "other_examinations": "Otras examinaciones",
+          "others": "Otros",
+          "stressors": "Estresores",
+          "trace_elements": "Elementos traza",
+          "urin_analysis": "Análisis de orina",
+          "without": "Sin configuración de grupo"
+        },
+        "noResults": {
+          "title": "No hay resultados disponibles",
+          "subtitle": "Aún no hay información disponible"
+        }
+      }
+    },
+    "status": {
+      "ALL": "Total",
+      "ACTIVE": "Esperando resultados",
+      "COMPLETE_RESULTS": "Resultados completos",
+      "DRAFT": "Esperando paciente",
+      "ERROR": "Problemas",
+      "PARTIAL_RESULTS": "Resultados parciales",
+      "PENDING": "Esperando SCS",
+      "REVIEWED": "Revisado"
+    }
+  },
+  "patients": {
+    "creation": {
+      "disclaimer": "La información del paciente NO se sincronizará con el EMR",
+      "labels": {
+        "primaryId": "ID del paciente*",
+        "secondaryId": "Segunda ID del paciente",
+        "name": "Nombre",
+        "surname": "Apellido",
+        "birthDate": "Fecha de nacimiento",
+        "gender": "Sexo al nacer",
+        "phone": "Número de teléfono",
+        "email": "Correo electrónico"
+      },
+      "validation": {
+        "required": "Este campo es obligatorio",
+        "primaryId": "Requisitos no cumplidos. Sin espacios en blanco ni caracteres especiales.",
+        "secondaryId": "Requisitos no cumplidos. Sin espacios en blanco ni caracteres especiales.",
+        "name": "Requisitos no cumplidos. Sin valores numéricos ni caracteres especiales.",
+        "surname": "Requisitos no cumplidos. Sin valores numéricos ni caracteres especiales.",
+        "email": "La dirección de correo electrónico debe tener este formato: email@email.com"
+      }
+    },
+    "data": {
+      "title": "Datos básicos",
+      "name": "Nombre",
+      "surname": "Apellido",
+      "primaryId": "ID primaria del paciente",
+      "secondaryId": "ID secundaria del paciente",
+      "gender": "Género",
+      "birthDate": "Fecha de nacimiento"
+    },
+    "errors": {
+      "001": "Error de validación comercial",
+      "400": "Los siguientes campos tienen un formato inválido: {{errorFields}}"
+    },
+    "gender": {
+      "male": "Masculino",
+      "female": "Femenino",
+      "unknown": "Desconocido",
+      "other": "Otro"
+    },
+    "search": {
+      "placeholder": "Buscar por nombre o ID del paciente",
+      "noResults": "No hay resultados disponibles"
+    }
+  }
+}
