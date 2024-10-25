@@ -1,0 +1,348 @@
+{
+  "errors": {
+    "messages": {
+      "400badRequest": "Requête incorrecte.",
+      "401unauthorized": "Requête non autorisée.",
+      "404notFound": "Le serveur ne peut pas trouver l'URL demandée.",
+      "405methodnotallow": "La méthode appelée existe mais ne peut pas être appelée directement.",
+      "408requestTimeout": "Le serveur ne répond pas.",
+      "500internalServerError": "Le serveur a rencontré une erreur.",
+      "501notimplemented": "Le serveur ne peut pas gérer cette méthode.",
+      "503serviceunavailable": "Le serveur n'est pas prêt à traiter les requêtes.",
+      "unknownError": "Une erreur inconnue s'est produite.",
+      "genericMessage": "Quelque chose s'est mal passé, veuillez contacter le support client."
+    },
+    "fallback": {
+      "pageNotFound": "Page non trouvée",
+      "requestedPageNotExist": "La page demandée n'existe pas.",
+      "homeButton": "Accueil"
+    },
+    "orders": {
+      "ORDER_NOT_FOUND": "Commande introuvable",
+      "WRONG_ORDER_STATUS": "La commande n'est pas dans l'état 'RÉSULTATS COMPLETS' ou 'VÉRIFIÉ'"
+    },
+    "user": {
+      "UNPROCESSABLE": "La langue préférée n'a pas pu être enregistrée dans votre profil."
+    }
+  },
+  "nameProject": "Plateforme de tests IVD",
+  "description": "Ceci est un projet vide avec le thème : {{theme}}",
+  "fallback": {
+    "pageNotFoundMessage": "Page non trouvée",
+    "pageNotFoundDescription": "La page demandée {{url}} n'existe pas.",
+    "countdownMessage": "Vous serez redirigé dans... {{countdown}}",
+    "unauthorizedMessage": "Vous n'avez pas la permission d'accéder à cette page."
+  },
+  "control": {
+    "goHome": "Accueil",
+    "goTestLink": "Tester la navigation"
+  },
+  "navigation": {
+    "HOME": "Accueil",
+    "ORDER_CREATION": "Créer une commande",
+    "ORDERS": "Commandes",
+    "TITLE": "Commandes de tests par statut"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "continue": "Continuer",
+    "logOut": "Déconnexion",
+    "confirm": "Confirmer",
+    "search": "Rechercher",
+    "close": "Fermer"
+  },
+  "list": {
+    "currentPage": "{{currentPage}} sur {{total_pages}}",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "i18n": {
+    "changeLanguage": "Changer de langue"
+  },
+  "intlDateTime": "{{val, datetime}}",
+  "rangeSelector": {
+    "title": "Sélectionner une plage",
+    "today": "Aujourd'hui",
+    "lastWeek": "La semaine dernière",
+    "lastMonth": "Le mois dernier",
+    "last3Months": "Les 3 derniers mois",
+    "custom": "Personnalisé"
+  },
+  "timePassed": {
+    "result": "Il y a {{quantity}} {{unit}}",
+    "minuteSingular": "minute",
+    "minutePlural": "minutes",
+    "hourSingular": "heure",
+    "hourPlural": "heures",
+    "daySingular": "jour",
+    "dayPlural": "jours"
+  },
+  "actions": {
+    "needHelp": "Besoin d'aide ?"
+  },
+  "about": {
+    "name": "Plateforme de tests IVD",
+    "title": "À propos",
+    "softwareVersion": "Version du logiciel",
+    "languageVersion": "Version du pack de langue",
+    "copyright": {
+      "title": "Droits d'auteur",
+      "text": "Droits d'auteur © 2024 Roche Diagnostics International Ltd. Tous droits réservés.\n\nLa Plateforme de tests IVD est protégée par le droit des contrats, le droit d'auteur et les traités internationaux.\n\nLa Plateforme de tests IVD est concédée sous licence pour une utilisation entre Roche Diagnostics International Ltd et le licencié, et seuls les utilisateurs autorisés en vertu de celle-ci sont autorisés à accéder et à utiliser le logiciel. Toute utilisation et distribution non autorisées peuvent entraîner des sanctions civiles et pénales."
+    },
+    "trademark": {
+      "title": "Marques déposées",
+      "text": "Plateforme de tests IVD est une marque déposée de Roche.\n\nTous les autres noms de produits et marques déposées sont la propriété de leurs détenteurs respectifs."
+    },
+    "openSource": {
+      "title": "Logiciel Open Source et commercial",
+      "text": "La Plateforme de tests IVD peut contenir des composants ou des modules qui sont des programmes logiciels open source ou commerciaux."
+    },
+    "useStatement": {
+      "title": "Déclaration d'utilisation",
+      "text": "La Plateforme de tests IVD est une couche d'application/intégration pour transporter des données des systèmes informatiques partenaires vers le laboratoire et vice versa.\n\nLa Plateforme de tests IVD permet aux prestataires de soins de santé de commander des tests IVD et de consulter les résultats des tests d'une gamme de services de diagnostic différents.\n\nLa Plateforme de tests IVD offrira une capacité de saisie des commandes et de consultation des résultats au cas où une intégration dans l'infrastructure informatique de santé ne serait pas possible.\n\nLa Plateforme de tests IVD permet au patient ou au prestataire de soins de santé de sélectionner un lieu préféré pour le prélèvement d'échantillons.\n\nCette plateforme/produit n'est pas destinée au diagnostic, au dépistage, à la surveillance ou au traitement des patients."
+    },
+    "manufacturer": "Roche Diagnostics GmbH\nSandhofer Strasse 116\n68305 Mannheim\nAllemagne",
+    "manufactureDate": "27/09/2024",
+    "originCountry": "Fabriqué en Espagne",
+    "materialNumber": "10342811001"
+  },
+  "laboratories": {
+    "address": {
+      "title": "Adresse",
+      "street": "Rue",
+      "postalCode": "Code postal",
+      "city": "Ville",
+      "country": "Pays"
+    },
+    "bookingService": {
+      "onlineAvailability": "Service de réservation en ligne",
+      "phone": "Numéro de téléphone",
+      "url": "URL"
+    },
+    "filter": {
+      "empty": "Aucun site de prélèvement d'échantillons ne correspond à votre recherche",
+      "search": {
+        "title": "Filtrer le site de prélèvement",
+        "label": "Par nom ou adresse"
+      }
+    },
+    "openingHours": {
+      "title": "Heures d'ouverture",
+      "monToFri": "Lundi au vendredi",
+      "sat": "Samedi",
+      "sun": "Dimanche",
+      "holidays": "Jours fériés"
+    },
+    "dropin": {
+      "title": "Sans rendez-vous"
+    },
+    "sendOrder": {
+      "action": "Envoyer la commande",
+      "success": "La commande a été envoyée avec succès à {{name}}",
+      "error": "Un problème est survenu lors de l'envoi de votre commande à {{name}}"
+    }
+  },
+  "orders": {
+    "creation": {
+      "steps": {
+        "patient": "Informations du patient",
+        "tests": "Choisir des tests",
+        "conditions": "Conditions",
+        "summary": "Résumé de la commande"
+      },
+      "patient": {
+        "search": "Rechercher un patient",
+        "create": "Ajouter un patient manuellement"
+      },
+      "tests": {
+        "title": "Choisir un test",
+        "filterPlaceholder": "Rechercher par nom de test ou LOINC"
+      },
+      "conditions": {
+        "title": "Site de prélèvement",
+        "filterPlaceholder": "Rechercher par nom ou adresse du site de prélèvement",
+        "options": {
+          "title": "Liste des options",
+          "filters": {
+            "dropIn": "Disponible sans rendez-vous"
+          }
+        }
+      },
+      "summary": {
+        "sections": {
+          "patient": "Informations du patient",
+          "tests": "Informations sur le test",
+          "conditions": "Conditions"
+        },
+        "actions": {
+          "change": "Modifier"
+        },
+        "tests": {
+          "notAvailable": "Non disponible",
+          "noTests": "Aucun test sélectionné"
+        },
+        "conditions": {
+          "laboratory": "Site de prélèvement"
+        }
+      },
+      "dialog": {
+        "title": "Annuler la commande de test",
+        "text": "En cliquant sur Confirmer, vous perdrez toutes les informations déjà saisies dans la commande de test.<br /><br />Voulez-vous continuer ?",
+        "action": "Confirmer"
+      },
+      "interceptor": {
+        "title": "Quitter la création de la commande de test",
+        "text": "En cliquant sur Continuer, les informations actuelles de la commande seront perdues.<br /><br />Voulez-vous continuer ?"
+      }
+    },
+    "display": {
+      "title": "Gestionnaire de commandes",
+      "total": "Total"
+    },
+    "list": {
+      "header": {
+        "title": "Liste des commandes",
+        "filters": {
+          "myOrders": "Filtrer mes commandes",
+          "status": {
+            "placeHolder": "Sélectionner un statut",
+            "name": "Filtrer par statut"
+          },
+          "text": {
+            "placeHolder": "Rechercher par",
+            "name": "Filtrer par texte"
+          }
+        }
+      },
+      "fields": {
+        "id": "ID de la commande",
+        "doctor": "Demandé par",
+        "primaryId": "ID du patient",
+        "creationDate": "Date d'enregistrement",
+        "lastUpdate": "Dernière mise à jour",
+        "status": "Statut"
+      },
+      "noResults": {
+        "subtitle": "Veuillez essayer avec d'autres mots-clés ou ajuster vos filtres"
+      }
+    },
+    "notifications": {
+      "orderCreation": {
+        "success": "{{orderId}} a été créé avec succès.",
+        "error": "La commande n'a pas pu être créée. Veuillez réessayer.",
+        "info": "{{orderId}} a été créé, mais n'a pas pu être envoyé correctement.",
+        "pending": "{{orderId}} est en cours de traitement. Cela peut prendre quelques minutes."
+      },
+      "orderResults": {
+        "notFound": "La commande n'a pas pu être trouvée. Veuillez réessayer."
+      },
+      "actions": {
+        "viewOrder": "Voir la commande"
+      }
+    },
+    "order": {
+      "title": "Commande",
+      "review": "Marquer comme vérifié",
+      "patient": {
+        "information": "Informations du patient",
+        "id": "ID du patient",
+        "birthDate": "Date de naissance",
+        "sex": "Sexe à la naissance",
+        "email": "E-mail"
+      },
+      "details": {
+        "id": "ID de la commande",
+        "lastUpdate": "Dernière mise à jour",
+        "orderDate": "Date d'enregistrement",
+        "requestedBy": "Demandé par",
+        "reviewedBy": "Vérifié par",
+        "reviewedDate": "Date de vérification",
+        "reportedDate": "Date du rapport",
+        "sampleCollectionSite": "Site de prélèvement"
+      },
+      "results": {
+        "title": "Résultats",
+        "actions": {
+          "copyFullReport": "Copier le rapport complet",
+          "copiedToClipboard": "Copié dans le presse-papiers"
+        },
+        "groups": {
+          "clinical_chemistry_lipids_proteins": "Chimie clinique, lipides, protéines",
+          "for_special_indications": "Pour indications spéciales",
+          "heavy_metals": "Métaux lourds",
+          "hematology_and_hba1c": "Hématologie et HbA1c",
+          "hemostasis": "Hémostase",
+          "hormones_tumor_markers_and_others": "Hormones, marqueurs tumoraux et autres",
+          "other_examinations": "Autres examens",
+          "others": "Autres",
+          "stressors": "Facteurs de stress",
+          "trace_elements": "Éléments traces",
+          "urin_analysis": "Analyse d'urine",
+          "without": "Aucune configuration de groupe"
+        },
+        "noResults": {
+          "title": "Aucun résultat disponible",
+          "subtitle": "Aucune information disponible pour le moment"
+        }
+      }
+    },
+    "status": {
+      "ALL": "Total",
+      "ACTIVE": "En attente de résultats",
+      "COMPLETE_RESULTS": "Résultats complets",
+      "DRAFT": "En attente du patient",
+      "ERROR": "Problèmes",
+      "PARTIAL_RESULTS": "Résultats partiels",
+      "PENDING": "En attente du site de prélèvement",
+      "REVIEWED": "Vérifié"
+    }
+  },
+  "patients": {
+    "creation": {
+      "disclaimer": "Les informations du patient NE seront PAS synchronisées avec le dossier médical électronique",
+      "labels": {
+        "primaryId": "ID du patient*",
+        "secondaryId": "Deuxième ID du patient",
+        "name": "Prénom",
+        "surname": "Nom de famille",
+        "birthDate": "Date de naissance",
+        "gender": "Sexe à la naissance",
+        "phone": "Numéro de téléphone",
+        "email": "E-mail"
+      },
+      "validation": {
+        "required": "Ce champ est obligatoire",
+        "primaryId": "Exigences non remplies. Pas d'espaces vides ni de caractères spéciaux.",
+        "secondaryId": "Exigences non remplies. Pas d'espaces vides ni de caractères spéciaux.",
+        "name": "Exigences non remplies. Pas de valeurs numériques ni de caractères spéciaux.",
+        "surname": "Exigences non remplies. Pas de valeurs numériques ni de caractères spéciaux.",
+        "email": "L'adresse e-mail doit avoir ce format : email@email.com"
+      }
+    },
+    "data": {
+      "title": "Données de base",
+      "name": "Prénom",
+      "surname": "Nom de famille",
+      "primaryId": "ID primaire du patient",
+      "secondaryId": "ID secondaire du patient",
+      "gender": "Genre",
+      "birthDate": "Date de naissance"
+    },
+    "errors": {
+      "001": "Erreur de validation métier",
+      "400": "Les champs suivants ont un format invalide : {{errorFields}}"
+    },
+    "gender": {
+      "male": "Masculin",
+      "female": "Féminin",
+      "unknown": "Inconnu",
+      "other": "Autre"
+    },
+    "search": {
+      "placeholder": "Rechercher par nom ou ID du patient",
+      "noResults": "Aucun résultat disponible"
+    }
+  }
+}
