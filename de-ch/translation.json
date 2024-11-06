@@ -1,7 +1,7 @@
 {
   "errors": {
     "messages": {
-      "400badRequest": "Ungültige Anfrage....astmasssssssssssssssssssssssd",
+      "400badRequest": "hola",
       "401unauthorized": "Unbefugte Anfrage.",
       "404notFound": "Der Server kann die angeforderte URL nicht finden.",
       "405methodnotallow": "Die aufgerufene Methode existiert, kann aber nicht direkt aufgerufen werden.",
