@@ -1,5 +1,4 @@
 {
-  "translation": {
   "errors": {
     "messages": {
       "400badRequest": "Bad request.",
@@ -346,5 +345,4 @@
       "noResults": "No available results"
     }
   }
-}
 }
