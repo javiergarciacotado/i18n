@@ -321,7 +321,10 @@
         "email": "Email address must contain this format: email@email.com"
       }
     },
-    "test": {},
+    "test": {
+      "loinc": "aaaaaaaaaaaaaaaaaa",
+      "name": "bbbbbbbbbbbbbbbbb"
+    },
     "data": {
       "title": "Basic data",
       "name": "Name",
