@@ -325,7 +325,7 @@
       "name": "complete blood count",
       "loinc": "2456",
       "description":  "",           
-    }
+    },
     "data": {
       "title": "Basic data",
       "name": "Name",
