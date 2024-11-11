@@ -321,11 +321,6 @@
         "email": "Email address must contain this format: email@email.com"
       }
     },
-    "test": {
-      "name": "complete blood count",
-      "loinc": "2456",
-      "description":  "",           
-    },
     "data": {
       "title": "Basic data",
       "name": "Name",
