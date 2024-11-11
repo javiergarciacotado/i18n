@@ -83,7 +83,7 @@
     "needHelp": "Need help?"
   },
   "about": {
-    "name": "carles shut up",
+    "name": "luiz shut up",
     "title": "About",
     "softwareVersion": "Software Version",
     "languageVersion": "Language Pack Version",
@@ -321,6 +321,11 @@
         "email": "Email address must contain this format: email@email.com"
       }
     },
+    "test": {
+      "name": "complete blood count",
+      "loinc": "2456",
+      "description":  "",           
+    }
     "data": {
       "title": "Basic data",
       "name": "Name",
